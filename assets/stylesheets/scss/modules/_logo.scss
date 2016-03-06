@@ -1,0 +1,51 @@
+//
+// modules/_logo.scss: all brand logo styling.
+//
+
+.flock-logo {
+
+    &-sm {
+        width: 5.33333em;
+        height: 3em;
+
+        &-cloud {
+            fill: none;
+            stroke: color('blue');
+            stroke-width: 12;
+            stroke-miterlimit: 10;
+        }
+
+        &-letter {
+            fill: color('blue');
+        }
+    }
+
+    &-med {
+        @extend .flock-logo-sm;
+        font-size: $heading-2;
+
+        &-cloud {
+            @extend .flock-logo-sm-cloud;
+            stroke: color('white');
+        }
+
+        &-letter {
+            @extend .flock-logo-sm-letter;
+            fill: color('white');
+        }
+    }
+
+    &-lg {
+        width: 8em;
+        height: 4.5em;
+        font-size: $logo-size;
+
+        &-cloud {
+            @extend .flock-logo-med-cloud;
+        }
+
+        &-letter {
+            @extend .flock-logo-med-letter;
+        }
+    }
+}

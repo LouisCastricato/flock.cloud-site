@@ -1,0 +1,9 @@
+//
+// modules/animations/_extends.scss: all animations and keyframe styling.
+//
+
+%animation-settings {
+    @include animation-fill-mode(forwards);
+    @include animation-timing-function(cubic-bezier(0.47, 0.12, 0.43, 0.96));
+    @include animation-play-state(paused);
+}

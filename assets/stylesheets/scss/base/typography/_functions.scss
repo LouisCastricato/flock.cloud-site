@@ -1,0 +1,14 @@
+//
+// base/typography/_functions: all functions related to site typography.
+//
+
+// font map retrieval
+@function font($key){
+
+    @if map-has-key($ty-fonts, $key) {
+        @return map-get($ty-fonts, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $ty-fonts.";
+    @return null;
+}

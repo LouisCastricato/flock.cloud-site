@@ -1,0 +1,37 @@
+//
+// modules/navigation/_mixins.scss: all reusable navigation mixins.
+//
+
+@mixin nav-bp {
+    height: auto;
+    background: rgba(0,0,0,0.8);
+
+    li {
+        width: auto;
+        display: inline;
+        @if $stylesheet-type == 'blog'{
+            margin: 0 1em;
+        } @else{
+            margin: 0;
+        }
+    }
+
+    #nav-icon {
+        display: none;
+    }
+
+    a{
+        width: auto;
+        height: auto;
+        padding-bottom: 0.5em;
+
+        @if $stylesheet-type == 'site'{
+            margin: 0 1em;
+        } @else{
+            margin: 0;
+        }
+
+        display: inline;
+        font-size: $default-font-size;
+    }
+}

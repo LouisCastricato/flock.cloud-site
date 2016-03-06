@@ -1,0 +1,23 @@
+//
+// modules/buttons/buttons: default button styling.
+//
+
+.landing-btn {
+    @extend %std-btn;
+}
+
+.btn {
+
+    &-learn {
+        @extend %info-btn;
+    }
+
+    &-signup {
+        @extend %primary-btn;
+    }
+}
+
+input[type="submit"] {
+    @extend %std-btn;
+    @extend %primary-btn;
+}

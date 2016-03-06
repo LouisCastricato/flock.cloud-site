@@ -1,0 +1,30 @@
+//
+// modules/_flow-graph.scss: flow-graph styling.
+//
+
+.flow-graph {
+    width: calc(100% - 4em);
+    padding: 2em;
+
+    ul {
+        display: inline;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    &-item {
+        margin: 3em 2em;
+        display: inline-block;
+    }
+
+    &-img {
+        width: 20em;
+        height: 20em;
+        display: block;
+        background: color('white', 'secondary');
+        border-radius: 50%;
+    }
+}

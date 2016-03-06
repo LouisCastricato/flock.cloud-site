@@ -1,0 +1,47 @@
+//
+// base/typography/_variables.scss: all variables related to site typography.
+//
+
+// FONT FAMILIES
+$body-font: 'San Fran', 'Helvetica Neue', 'Calibri', sans-serif;
+$title-font: 'San Fran Display', $body-font;
+
+// FONT SIZES
+
+$default-font-size: 100%;                       // 16px
+
+$logo-size: $default-font-size * 5;             // 500%/80px
+
+$heading-1: $default-font-size * 3;             // 300%/48px
+$heading-2: $default-font-size * 2.5;           // 250%/40px
+$heading-3: $default-font-size * 2.25;          // 225%/36px
+$heading-4: $default-font-size * 2;             // 200%/32px
+$heading-5: $default-font-size * 1.5;           // 150%/24px
+$heading-6: $default-font-size * 1.25;          // 125%/20px
+$small-font-size: $default-font-size * 0.8;     // 80%/12.8px
+
+// LINE HEIGHTS
+$default-lh: 100%;
+
+$lh-1: $default-lh * 2;                         // 200%
+$lh-2: $default-lh * 1.5;                       // 150%
+$lh-3: $default-lh * 1.25;                      // 125%
+
+// FONT WEIGHTS
+$hairline: 100;
+$thin: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$heavy: 800;
+$black: 900;
+
+// FONT MAP
+$ty-fonts: (
+    'body': #{$default-font-size}/#{$lh-2} $body-font,
+    'heading-1': $light #{$heading-1}/#{$lh-3} $title-font,
+    'heading-2': $light #{$heading-5}/#{$lh-2} $title-font,
+    'heading-3': $regular #{$heading-6}/#{$lh-3} $title-font,
+);

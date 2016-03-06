@@ -1,0 +1,21 @@
+//
+// base/_global-variables.scss: all global variables.
+//
+
+// ELEMENTS
+$default-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$hover-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+// element transitions
+$default-transition: all 0.25s ease-in-out;
+$medium-transition: all 0.5s ease-in-out;
+$long-transition: all 0.75s ease-in-out;
+
+
+// MEDIA QUERIES
+$medium-mobile-width: 37.5em; // 500px
+$large-mobile-width: 50em; // 800px
+
+$desktop-width-media: 68.75em; // 1100px
+$desktop-height-media:  43.75em; // 700px
+$desktop-aspect-ratio: "25/12"; // 25/12 (0.48)

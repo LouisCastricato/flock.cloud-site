@@ -1,0 +1,24 @@
+//
+// defaults.scss: default SCSS project partials.
+//
+
+// CORE SETTINGS
+@import 'scss/base/normalize';
+
+@import 'scss/base/colors/variables';
+@import 'scss/base/colors/functions';
+@import 'scss/base/typography/variables';
+@import 'scss/base/typography/functions';
+@import 'scss/base/z-index/variables';
+@import 'scss/base/z-index/functions';
+@import 'scss/base/settings/variables';
+@import 'scss/base/settings/mixins';
+
+// FONTS
+@import 'scss/fonts/sanfran';
+
+// BASELINE
+@import 'scss/base/foundation';
+@import 'scss/base/typography/typography';
+
+@import 'scss/base/layouts/landing';

@@ -1,0 +1,31 @@
+//
+// global.scss: global stylesheet.
+//
+
+// CORE SETTINGS
+@import 'defaults';
+
+// MODULES
+@import 'scss/modules/navigation/nav-buttons';
+@import 'scss/modules/navigation/nav-bar';
+@import 'scss/modules/footer';
+
+@import 'scss/modules/forms/textfield';
+@import 'scss/modules/forms/buttons/extends';
+@import 'scss/modules/forms/buttons/buttons';
+
+@import 'scss/modules/flow-graph';
+@import 'scss/modules/logo';
+
+// ANIMATIONS -- settings placed here for initialization
+@import 'scss/modules/animations/mixins';
+@import 'scss/modules/animations/extends';
+
+// SECTIONS
+@import 'scss/sections/nameplate';
+@import 'scss/sections/benefits';
+@import 'scss/sections/signup';
+
+// ANIMATIONS -- placed at the very end to ensure that animations fully work
+@import 'scss/modules/animations/keyframes';
+@import 'scss/modules/animations/animations';

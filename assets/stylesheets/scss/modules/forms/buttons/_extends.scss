@@ -1,0 +1,39 @@
+//
+// modules/forms/buttons/extends: all extendable button styling.
+//
+
+%std-btn {
+    width: 8em;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    box-shadow: $default-shadow;
+    @include center-allcaps;
+    @include transition($default-transition);
+
+    &:hover {
+        box-shadow: $hover-shadow;
+        @include transition($default-transition);
+    }
+}
+
+%primary-btn {
+    background: color('blue', 'A900');
+    color: color('white');
+
+    &:hover{
+        background: color('blue', 'A100');
+        color: color('blue', '900');
+    }
+}
+
+%info-btn {
+    background: color('white', 'primary');
+    color: color('blue', 'A900');
+
+    &:hover {
+        background: color('white');
+    }
+}

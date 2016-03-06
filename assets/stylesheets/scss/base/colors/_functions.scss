@@ -1,0 +1,18 @@
+//
+// base/colors/_functions.scss: all functions related to site color palette.
+//
+
+// color palette map retrieval
+@function color($name, $variant: $color-variant) {
+
+    $color-spectrum: if(map-has-key($flock-color-palette, $name), map-get($flock-color-palette, $name), null);
+
+    @if $color-spectrum {
+        @if map-has-key($color-spectrum, $variant) {
+            @return map-get($color-spectrum, $variant);
+        }
+    }
+
+    @warn "Unknown `#{$name}/#{$variant}` in $flock-color-palette.";
+    @return null;
+}

@@ -1,0 +1,40 @@
+//
+// modules/navigation/_nav-arrows.scss: navigation arrow styling.
+//
+
+.nav-button {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 1em;
+    cursor: pointer;
+    position: absolute;
+    bottom: -2.5em;
+    z-index: z('second-topmost');
+    background: color('blue', 'A900');
+    border-radius: 50%;
+    box-shadow: $default-shadow;
+    text-align: center;
+
+    a {
+        margin: 0.25em 0;
+        display: block;
+        font: $hairline #{$heading-4}/#{$default-lh} $title-font;
+        color: color('white', 'secondary');
+        @include transform(scale(2.5,1));
+
+        &:hover {
+            color: color('white');
+        }
+    }
+}
+
+.btn-nav {
+
+    &-one, &-three {
+        left: 20vw;
+    }
+
+    &-two {
+        right: 20vw;
+    }
+}

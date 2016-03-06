@@ -1,0 +1,9 @@
+//
+// base/z-index/_variables.scss: all variables related to site element z-indexes.
+//
+
+$z-layers: (
+    'base': 1,
+    'second-topmost': 99,
+    'topmost': 999,
+);

@@ -1,0 +1,12 @@
+//
+//  base/z-index/_functions: all functions related to site element z-indexes.
+//
+
+// z-index map retrieval
+@function z($key) {
+    @if map-has-key($z-layers, $key){
+        @return map-get($z-layers, $key)
+    }
+    @warn "Unknown `#{$key}` in $z-layers.";
+    @return null;
+}

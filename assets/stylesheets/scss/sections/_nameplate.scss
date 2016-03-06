@@ -1,0 +1,21 @@
+//
+// sections/_nameplate.scss: all nameplate styling.
+//
+
+.landing {
+    width: 80vw;
+    height: 28.75em;
+    margin: -14.375em auto 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+.nameplate{
+
+    &-subtitle {
+        font-size: $heading-3;
+        color: color('white', 'secondary');
+        letter-spacing: 0.125em;
+        @include center-allcaps;
+    }
+}

@@ -1,0 +1,46 @@
+//
+// modules/animations/_animations.scss: all animations.
+//
+
+.flock-logo-lg-cloud {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    @include animation-name(cloud-fill);
+    @include animation-duration(5s);
+    @extend %animation-settings;
+}
+
+@include keyframes(cloud-fill) {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.nav-logo {
+    visibility: hidden;
+    opacity: 0;
+}
+
+// ANIMATION TRIGGERS
+
+.activate-animation {
+    @include animation-iteration-count(1);
+    @include animation-play-state(running);
+}
+
+.active {
+    visibility: visible;
+    opacity: 1;
+    @include transition($medium-transition);
+}
+
+.visible {
+    background: #fafafa;
+    box-shadow: $default-shadow;
+    @include transition($medium-transition);
+}
+
+.color-change {
+    color: color('blue');
+    @include transition($medium-transition);
+}

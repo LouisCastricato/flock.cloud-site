@@ -1,0 +1,50 @@
+//
+// modules/forms/_textfield.scss: all text-related input field styling.
+//
+
+input[type="text"] {
+    height: 2em;
+    padding: 1em;
+    margin: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid color('blue', '100');
+    outline-color: color('white', 'tertiary');
+}
+
+.textfield {
+
+    &-std {
+        width: 10em;
+        border-bottom: color('blue', '100');
+    }
+
+    &-long {
+        width: 20em;
+        border-bottom: color('blue', '100');
+    }
+}
+
+// PLACEHOLDERS
+
+::-webkit-input-placeholder {
+    color: color('white', 'tertiary');
+    text-transform: uppercase;
+}
+
+:-moz-placeholder {
+    color: color('white', 'tertiary');
+    text-transform: uppercase;
+}
+
+::-moz-placeholder {
+    color: color('white', 'tertiary');
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+    color: color('white', 'tertiary');
+    text-transform: uppercase;
+}

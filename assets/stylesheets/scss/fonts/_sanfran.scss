@@ -1,0 +1,240 @@
+//
+// base/fonts/_sanfran.scss: font declarations for San Francisco font.
+//
+
+$dest: '../fonts/sanfran';
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_ultralight-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_ultralight-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_ultralight-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_ultralight-webfont.svg#sf_ui_displayultralight') format('svg');
+    font-weight: $hairline;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_thin-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_thin-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_thin-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_thin-webfont.svg#sf_ui_displaythin') format('svg');
+    font-weight: $thin;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_light-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_light-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_light-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_light-webfont.svg#sf_ui_displaylight') format('svg');
+    font-weight: $light;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_medium-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_medium-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_medium-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_medium-webfont.svg#sf_ui_displaymedium') format('svg');
+    font-weight: $regular;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_regular-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_regular-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_regular-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_regular-webfont.svg#sf_ui_displayregular') format('svg');
+    font-weight: $medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_semibold-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_semibold-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_semibold-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_semibold-webfont.svg#sf_ui_displaysemibold') format('svg');
+    font-weight: $semibold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_bold-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_bold-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_bold-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_bold-webfont.svg#sf_ui_displaybold') format('svg');
+    font-weight: $bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_heavy-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_heavy-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_heavy-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_heavy-webfont.svg#sf_ui_displayheavy') format('svg');
+    font-weight: $heavy;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran Display';
+    src: url('#{$dest}/system_san_francisco_display_black-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_display_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_display_black-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_display_black-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_display_black-webfont.svg#sf_ui_displayblack') format('svg');
+    font-weight: $black;
+    font-style: normal;
+}
+
+
+// SAN FRAN TEXT
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__light-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__light-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__light-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__light-webfont.svg#sf_ui_textlight') format('svg');
+    font-weight: $light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__lightitalic-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__lightitalic-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__lightitalic-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__lightitalic-webfont.svg#sf_ui_textlight_italic') format('svg');
+    font-weight: $light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__regular-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__regular-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__regular-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__regular-webfont.svg#sf_ui_textregular') format('svg');
+    font-weight: $regular;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__italic-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__italic-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__italic-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__italic-webfont.svg#sf_ui_textitalic') format('svg');
+    font-weight: $regular;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__medium-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__medium-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__medium-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__medium-webfont.svg#sf_ui_textmedium') format('svg');
+    font-weight: $medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__mediumitalic-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__mediumitalic-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__mediumitalic-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__mediumitalic-webfont.svg#sf_ui_textmedium_italic') format('svg');
+    font-weight: $medium;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__semibolditalic-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__semibolditalic-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__semibolditalic-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__semibolditalic-webfont.svg#sf_ui_textsemibold_italic') format('svg');
+    font-weight: $semibold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__semibold-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__semibold-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__semibold-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__semibold-webfont.svg#sf_ui_textsemibold') format('svg');
+    font-weight: $semibold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__bold-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__bold-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__bold-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__bold-webfont.svg#sf_ui_textbold') format('svg');
+    font-weight: $bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__bolditalic-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__bolditalic-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__bolditalic-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__bolditalic-webfont.svg#sf_ui_textbold_italic') format('svg');
+    font-weight: $bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__heavy-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__heavy-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__heavy-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__heavy-webfont.svg#sf_ui_textheavy') format('svg');
+    font-weight: $heavy;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Fran';
+    src: url('#{$dest}/system_san_francisco_text__heavyitalic-webfont.eot');
+    src: url('#{$dest}/system_san_francisco_text__heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$dest}/system_san_francisco_text__heavyitalic-webfont.woff') format('woff'),
+         url('#{$dest}/system_san_francisco_text__heavyitalic-webfont.ttf') format('truetype'),
+         url('#{$dest}/system_san_francisco_text__heavyitalic-webfont.svg#sf_ui_textheavy_italic') format('svg');
+    font-weight: $heavy;
+    font-style: italic;
+}
